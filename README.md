@@ -2,6 +2,8 @@
 
 This Repo is about the image-based detection and segmentation of the dartboard and arrows from the darts game. It utilizes transfer learning of a Mask R-CNN Net with a pre-trained ResNet backbone and artificially generated training data.
 
+## Used dataset and model 
+
 <table>
   <tr>
     <th colspan="2" style="text-align: center">Example from dataset</th>
@@ -31,6 +33,8 @@ The segmented images were filtered for color and polygon masks generated for the
 </table>
 
 The backbone of the Mask R-CNN is a ResNet-50, pretrained on the COCO dataset images. 
+
+## Performance on test- and real-world data
 
 <table>
   <tr>
